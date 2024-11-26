@@ -1,0 +1,180 @@
+@media (max-width:998px) {
+
+    .navbar {
+        padding: 0.5rem;
+    }
+
+    .navbar .mainMenu {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #000;
+        transition: top 1s ease;
+        display: none;
+        margin-right: 0px;
+        height: 25rem;
+    }
+
+    .navbar .mainMenu .closeMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    .navbar .openMenu {
+        display: block;
+        margin-right: 50px;
+    }
+
+    .navbar>.logo>h1 {
+        margin-left: 20px;
+        margin-top: 16px;
+    }
+
+    /* .navbar .mainMenu li a:hover {
+        background-color: none;
+        color: orange;
+        font-size: 1.6rem;
+    } */
+
+    .icons i {
+        display: inline-block;
+        padding: 12px;
+    }
+
+    .bg-color {
+        width: 100%;
+    }
+
+    /* .line {
+        display: none;
+    } */
+
+    .first-row {
+        width: 70%;
+    }
+
+    .row1 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .first-half {
+        width: 64%;
+        margin: auto;
+    }
+
+    .row2 {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        width: 33vw;
+    }
+
+    .pricing-container {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .about-working-hours {
+        width: 63%;
+        margin: auto;
+    }
+
+    .second-half {
+        width: 100%;
+    }
+
+    .social-icon li {
+        margin: 0.2rem 0px;
+    }
+
+    .mt-3 {
+        margin-top: 0px;
+    }
+
+    .team-info .social-icon {
+        top: 18px;
+    }
+
+}
+
+@media (min-width:360px) and (max-width:601px) {
+
+    .navbar>.logo>h1 {
+        margin-left: 20px;
+        margin-top: 16px;
+    }
+
+    .first-half {
+        margin: auto;
+        width: 95%;
+    }
+
+    .about-working-hours {
+        width: 96%;
+        margin: auto;
+    }
+
+    .pt {
+        padding-top: 0px;
+    }
+
+    .form {
+        max-width: 100%;
+    }
+
+    .textform {
+        font-size: 33px;
+    }
+
+    .contact {
+        height: 833px;
+        padding: 6.25rem 10px;
+        background-color: #f6f5f4;
+    }
+
+    .first-row {
+        width: 85%;
+    }
+
+    .first-row {
+        margin: 0px;
+        margin-top: 0px;
+    }
+
+    .container {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .card {
+        width: 90vw;
+    }
+
+    .row1 {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .class-price {
+        top: 1.5rem;
+    }
+
+    .pricing-plan {
+        max-width: 345px;
+    }
+
+    .team-info .social-icon {
+        top: 24px;
+    }
+}
